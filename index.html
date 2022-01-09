@@ -1,0 +1,102 @@
+# PEC3_HTML_CSS
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Noticias cambio climatico</title>
+</head>
+<body>
+    <div class="container" id="cabecera">
+        <span>NO HAY PLANETA B</span>
+        <a href="index.html"><h1>1,5 ºC</h1></a>
+    </div>
+    <header class="header">
+        <nav class="container">
+            <ul class="menu-links">
+				<li><a href="sintomas.html">SÍNTOMAS DEL CAMBIO CLIMATICO</a></li>
+				<li><a href="videos.html">VIDEOS</a></li>
+				<li><a href="cop26.html">COP26</a></li>
+			</ul>
+        </nav>
+    </header>
+    <main>
+        <div class="imagen_inicial">
+            <div class="texto1">
+                <p>La crisis climática, ¿una carrera que podemos ganar?</p>
+            </div>
+        </div>
+        <div class="container">
+            <section class="texto_inicial">
+                <h3>¿Qué es Un grado y medio?</h3>
+                <p>El acuerdo de París de 2015 sobre el cambio climático exige que el calentamiento global se mantenga por debajo de 1,5 grados centígrados. ¿Se está haciendo todo lo que se puede al respecto?</p>
+                <p>En Un grado y medio estamos preocupados por el cambio climático y desde aquí os queremos mantener informados y atentos a las iniciativas de acción climática.</p>
+            </section>
+            <section class="noticias">
+                <h3>Noticias</h3>
+                <div class="noticias_div">
+                    <figure class = "imagenes_indice">
+                        <img src="images/n-greta-thunberg.jpg" alt="Greta Thunberg" class="img-fluid">
+                        <figcaption>14.11.2021</figcaption>
+                    </figure>
+                    <h4><a href="">Greta Thunberg lamenta el acuerdo de la COP26</a></h4>
+                    <p><q>Bla, bla, bla.</q> Esta es la descripción que Greta Thunberg ha hecho del acuerdo que ha puesto fin a la COP26 de Glasgow </p>
+                    <p class="leer_mas"><a href="">Leer más</a></p>
+                </div>
+                <div class="noticias_div">
+                    <figure class = "imagenes_indice">
+                        <img src="images/n-delhi.jpg" alt="Estado indio Delhi" class="img-fluid" >
+                        <figcaption>13.11.2021</figcaption>
+                    </figure>
+                    <h4><a href="">El estado indio de Delhi cierra escuelas por la contaminación del aire</a></h4>
+                    <p>El Gobierno ha ordenado el cierre de escuelas, ha paralizado la construcción y ha decretado que los funcionarios trabajen obligatoriamente desde casa, debido a la contaminación del aire</p>
+                    <p class="leer_mas"><a href="">Leer más</a></p>
+                </div>
+                <div class="noticias_div">
+                    <figure class = "imagenes_indice">
+                        <img src="images/n-estres.jpg" alt="Representación estres" class="img-fluid">
+                        <figcaption>07.10.2021</figcaption>
+                    </figure>
+                    <h4><a href="">La ansiedad climática: un problema de salud </a></h4>
+                    <p>Diversos estudios aseguran que el escenario apocalíptico que augura el cambio climático causa estrés, sobre todo en niños y adolescentes...</p>
+                    <p class="leer_mas"><a href="">Leer más</a></p>
+                </div>
+            </section>
+        </div>
+        <div class="subscripcion">
+            <h3>Suscríbete a nuestro boletín de noticias</h3>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,64}" title="Solo caracteres alfabéticos. Un mínimo de 2 y un máximo de 64 caracteres" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Correo electrónico" required>
+                </div>
+                <div class="form-footer">
+                    <small>INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE <strong>Un grado y medio. Finalidades:</strong> recogida de datos para el envío de información. <strong>Legitimación:</strong> Consentimiento del interesado. <strong>Destinatarios</strong>: No están previstas cesiones de datos a terceros, excepto obligación legal. <strong>Derechos:</strong> Puede retirar su consentimiento en cualquier momento, así como acceder, rectificar, suprimir sus datos y otros derechos dirigiéndose a <a class="links_privacidad" href="">info@ungradoymedio.info</a>. <strong>Información Adicional:</strong> Puede ampliar la información en el enlace de <a class="links_privacidad" href=""></a><a class="links_privacidad" href="">Aviso legal</a> y <a class="links_privacidad" href="">Política de privacidad</a>.</small>
+                    <div class="conditions"><input type="checkbox" required id="acepto" value="Acepto"> <label for="acepto">He leído y acepto la política de privacidad y las condiciones de uso</label></div>
+                    <button type="submit" class="boton">SUSCRÍBEME</button>   
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+		<div class="footer_div">
+			<ul class="legal-links">
+				<li><a href="">Sobre nosotros</a></li>
+				<li><a href="">Aviso legal</a></li>
+				<li><a href="">Política de privacidad</a></li>
+				<li><a href="">Política de Cookies</a></li>
+			</ul>
+            <ul class="social-media-links">
+				<li><a href=""><img src="images/twitter.svg" alt="Twitter"> </a></li>
+				<li><a href=""><img src="images/instagram.svg" alt="Instagram"></a></li>
+				<li><a href=""><img src="images/youtube.svg" alt="Youtube"></a></li>
+			</ul>
+            <span>Actividad realizada por David Esteban Merino. Para la asignatura HTML y CSS. Primer semestre del curso 2021-2022</span>
+		</div>
+	</footer>
+</body>
+</html>
